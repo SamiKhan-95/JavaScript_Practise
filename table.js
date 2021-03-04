@@ -15,5 +15,24 @@
 // document.write("</div><br/>");
 // document.write("<input type='submit' value = Submit id = 'sub'>");
 function delEntireRow(flag){
-    document.getElementById('row').style.display = 'none';
+    switch(flag){
+        case 'row1':
+            document.getElementById('row1').style.display = 'none';
+            break
+        case 'row2':
+            document.getElementById('row2').style.display = 'none';
+            break
+        case 'row3':
+            document.getElementById('row3').style.display = 'none';
+            break
+        case 'row4':
+            document.getElementById('row4').style.display = 'none';
+            break
+    }
+}
+function edit(flag){
+    switch(flag){
+        case 'row1':
+            document.getElementById('row1').style.display = 'none';
+    }
 }
